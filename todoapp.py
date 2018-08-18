@@ -76,6 +76,5 @@ def updation(id):
 
 
 if __name__ == '__main__':
-    app.secret_key = 'this is my app'
     app.run(debug=True,port=8080)
 
